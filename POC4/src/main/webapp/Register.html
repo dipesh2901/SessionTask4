@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+text-align:center;
+color:darkred;
+}
+form{
+background-color:#F0FFFF;
+text-align: center;
+border:2px solid black;
+border-radius:70px;
+width:700px;
+
+}
+label{
+font-size:large;
+font-weight: bold;
+}
+#name{
+margin-top:10px;
+margin-left:25px;
+}
+#address{
+margin-left:15px;
+}
+
+#contact{
+margin-left:10px;
+}
+#password{
+margin-left:10px;
+}
+#deposit{
+margin-left:15px;
+}
+
+input{
+height:20px;
+
+}
+input:hover{
+border:2px solid black;
+}
+
+body{
+background-color:lightblue;
+}
+input[type=submit]{
+font-weight:bold;
+height:30px;
+margin-bottom:10px;
+}
+
+input[type=reset]{
+font-weight:bold;
+height:30px;
+margin-bottom:10px;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<div align="center">
+<form action="RegisterUser">
+<label for="name">Enter name:</label> <input type="text" name="name" id="name"><br><br>
+<label for="address">Enter Address:</label> <input type="text" name="address" id="address" required><br><br>
+<label for="contact">Enter Contact:</label> <input type="text" name="contact" id="contact" required><br><br>
+<label for="username">Enter Username:</label> <input type="text" name="username" required><br><br>
+<label for="password">Enter Password:</label> <input type="password" name="password" id="password" required><br><br>
+<label for="deposit">Enter Deposit:</label> <input type="number" name="deposit" id="deposit" required><br><br>
+<input type="submit" value="register">
+<input type="reset">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+border:2px solid black;
+background-color:#AFEEEE;
+border-radius:70px;
+width:700px;
+}
+.labels{
+margin-left:5px;
+font-size:large;
+font-weight:bold;
+}
+
+
+#username{
+margin-top:10px;
+height:20px;
+}
+input[type=text]:hover{
+border:2px black solid;
+}
+
+input[type=password]:hover{
+border:2px black solid;
+}
+#password{
+height:20px;
+margin-left:5px;
+margin-top:10px;
+}
+h1{
+text-align:center;
+}
+#login{
+margin-top:10px;
+margin-left:5px;
+margin-bottom:5px;
+font-weight:bold;
+font-size:small;
+width:70px;
+height:20px;
+}
+
+#login:hover{
+border:2px solid black;
+}
+
+#reset{
+margin-top:10px;
+font-weight: bold;
+width:70px;
+height:20px;
+}
+
+#reset:hover{
+border:2px solid black;
+}
+
+
+</style>
+<meta charset="ISO-8859-1">
+<title>User Login</title>
+</head>
+<body style="background-color:#FFF5EE">
+<h1>Login Form</h1>
+<div align="center">
+<form action="loginManagement">
+<label for="username" class="labels">Enter Username:</label> <input type="text" name="username" id="username" required><br>
+<label for="password" class="labels">Enter Password:</label><input type="password" name="password" id="password" required><br>
+<input type="submit" value="login" id="login">
+<input type="reset" id="reset">
+</form>
+</div>
+</body>
+</html>

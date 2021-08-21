@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+h2{
+color:#B22222;
+text-align:center;
+}
+
+input[type=text]{
+margin-top:10px;
+margin-left:10px;
+}
+
+label{
+font-weight:bold;
+font-size:large;
+margin-top:10px;
+}
+
+input[type=number]{
+margin-top:5px;
+margin-left:17px;
+}
+
+input[type=submit]{
+font-weight:bold;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+form{
+background-color:#FDF5E6;
+border:2px solid black;
+border-radius:75px;
+width:700px;
+}
+
+body{
+background-color:#E6E6FA
+}
+
+</style>
+<body>
+<h2>Provide the Details below for transfer</h2>
+<div align="center">
+<form action="transfer">
+<label for="payeeUsername">Enter Payee Username:<input type="text" name="payeeUsername" required></label><br>
+<label for="amount">Enter Amount to pay: <input type="number" name="amount" required></label><br>
+<input type="submit" value="pay">
+</form>
+</div>
+</body>
+</html>

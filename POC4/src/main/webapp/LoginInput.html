@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registered User personal Account</title>
+<style>
+body{
+background-color:#E0FFFF
+}
+h1{
+color:#663399;
+text-align: center;
+font-style: italic;
+}
+#div2{
+border-radius:50px;
+background-color:#AFEEEE;
+border:2px solid black;
+width:700px;
+font-weight:bolder;
+color:#2F4F4F;
+}
+label{
+margin-left:350px;
+font-weight:bold;
+font-size:large;
+}
+
+input[type=number]{
+height:20px;
+}
+
+input[type=number]:hover{
+border:2px solid black;
+}
+
+input[type=submit]{
+width:80px;
+height:20px;
+border:1px solid;
+font-weight: bold;
+margin-top:10px;
+margin-left:350px;
+}
+input[type=submit]:hover{
+border:2px solid black;
+opacity:0.5;
+}
+h3{
+color:#000080
+}
+
+</style>
+</head>
+<body>
+<h1>Bank of MyBank</h1><br>
+<div align="center">
+<div id="div2">
+<h3>1.Deposit</h3>
+<h3>2.Transfer</h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Last 5 Transactions</h3>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.User Information</h3>
+<h3>5.Log Out</h3>
+</div>
+</div>
+<br>
+<form action="UserAccess">
+<label for="choice2">Enter your Choice: </label><input type="number" name="choice2" required><br>
+<input type="submit">
+</form>
+</body>
+</html>

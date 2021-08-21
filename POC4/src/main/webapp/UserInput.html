@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-color:#FAFAD2
+}
+h1{
+color:#663399;
+text-align: center;
+font-style: italic;
+}
+#div2{
+border-radius:50px;
+background-color:#ADD8E6;
+border:2px solid black;
+width:700px;
+font-weight:bolder;
+color:#2F4F4F;
+}
+label{
+margin-left:350px;
+font-weight:bold;
+font-size:large;
+}
+
+input[type=number]{
+height:20px;
+}
+
+input[type=number]:hover{
+border:2px solid black;
+}
+
+input[type=submit]{
+width:80px;
+height:20px;
+border:1px solid;
+font-weight: bold;
+margin-top:10px;
+margin-left:350px;
+}
+input[type=submit]:hover{
+border:2px solid black;
+opacity:0.5;
+}
+h3{
+color:#800000
+}
+</style>
+</head>
+<body>
+<h1>Welcome to my Bank</h1>
+<div align="center">
+<div id="div2">
+<h3>1.Register Account</h3>
+<h3>2.Login</h3>
+<h3>3.Update Accounts</h3>
+<h3>4.Exit</h3>
+</div>
+</div>
+<br>
+<form action="poc4Task">
+<label for="choice">Enter your choice:</label> <input type="number" name="choice" required><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
