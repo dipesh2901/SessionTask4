@@ -1,0 +1,28 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>Example TLD</short-name>
+	<tag>
+		<name>CurrentDateTime</name>
+		<tag-class>myPackage.DateTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	<tag>
+		<name>Greeting</name>
+		<tag-class>myPackage.Greeting</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	<tag>
+		<name>CurrentTimebody</name>
+		<tag-class>myPackage.TimeTagCopy</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
+	<tag>
+		<name>RepeatText</name>
+		<tag-class>myPackage.RepeatTestTagAttribute</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+		<name>frequency</name>
+		<required>true</required></attribute>
+	</tag>
+</taglib>
